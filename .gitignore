@@ -1,0 +1,4 @@
+data/*
+.RData
+*.asc
+*.mid
