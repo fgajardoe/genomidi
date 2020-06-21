@@ -100,3 +100,6 @@ timidity GenomicSymphony.mid
 l
 ll
 exit
+timidity The-repetitive-order.mid 
+xx
+exit
