@@ -90,6 +90,11 @@ S=Symphony(
 )
 ```
 
+# Useful links
+
++ [Note names, MIDI numbers and frequencies](https://newt.phys.unsw.edu.au/jw/notes.html)
++ [Midi instruments](http://fmslogo.sourceforge.net/manual/midi-instrument.html)
+
 
 # Licence
 
