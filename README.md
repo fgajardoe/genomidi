@@ -1,9 +1,5 @@
 # Genomi♪i
 
-# ♮enomidi
-
-# Genomi♩i
-
 R package for listening genomic annotations. 
 
 # Dependences
