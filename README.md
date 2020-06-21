@@ -4,9 +4,8 @@ R package for listening genomic annotations.
 
 # Dependences
 
-+ R
-+ GenomicRanges
-+ Midicomp
++ R plus [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) package
++ [Midicomp](https://github.com/markc/midicomp)
 + Timidity
 
 # Quick start
@@ -96,6 +95,6 @@ S=Symphony(
 + [Midi instruments](http://fmslogo.sourceforge.net/manual/midi-instrument.html)
 
 
-# Licence
+# License
 
 GPLv3
