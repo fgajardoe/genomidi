@@ -1,14 +1,14 @@
 # Genomi♪i
 
-R package for listening genomic annotations. 
+An R package for listening genomic annotations. 
 
-# Dependences
+## Dependences
 
 + R plus [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) package
 + [Midicomp](https://github.com/markc/midicomp)
 + Timidity
 
-# Quick start
+## Quick start
 
 Basic steps to reveal genomic symphony.
 
@@ -18,7 +18,7 @@ Basic steps to reveal genomic symphony.
 
 
 
-# Docker container
+## Docker container
 
 1. Clone this repo to setup your working directory.
 
@@ -56,9 +56,9 @@ docker run -it -v `pwd`:/home/genomidi/ fgajardoe/genomidi:lastest Rscript symph
 Where `pwd` is your working directory (that is, the root of this repository).
 
 
-# Genomidi objects
+## Genomidi objects
 
-## Track
+### Track
 
 A `Track` object represents a set of genomic annotations of the same type, for example, the information you get from a `bed` file for genes, or transposable elements, or CHIPseq peaks, and so on.
 
@@ -76,7 +76,7 @@ There is a few things to have in mind while setting up a `Track` object:
 
 _In construction_
 
-## Symphony
+### Symphony
 
 ```
 S=Symphony(
