@@ -40,7 +40,7 @@ wget ... # all annotations you wish
 docker pull fgajardoe/genomidi:latest
 ```
 
-Alternatively you can build it your own with the `Dockerfile` included in the repo
+Alternatively you can build it your own with the `Dockerfile` included in the repository.
 
 4. Write your genomic symphony.
 
