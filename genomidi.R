@@ -42,10 +42,14 @@ composeSymphony=function(symphony){
 }
 
 
-playSymphony=function(symphony){
+playSymphony=function(symphony,play=FALSE){
 	write.table(printSymphony(symphony),paste(symphony$Label,".asc",sep=""),quote=F,sep=" ",row.names=F,col.names=F)
-	system(paste("midicomp -c ",symphony$Label,".asc ",symphony$Label,".mid", sep="")) # only generate mid file
-#	system(paste("midicomp -c ",symphony$Label,".asc ",symphony$Label,".mid && timidity ",symphony$Label,".mid",sep="")) # generate mid file and play it
+	if(play==FALSE){
+		system(paste("midicomp -c ",symphony$Label,".asc ",symphony$Label,".mid", sep="")) # only generate mid file
+	}
+	else{
+		system(paste("midicomp -c ",symphony$Label,".asc ",symphony$Label,".mid && timidity ",symphony$Label,".mid",sep="")) # generate mid file and play it
+	}
 }
 
 

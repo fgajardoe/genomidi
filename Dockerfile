@@ -23,7 +23,8 @@ RUN apt-get update && \
     cd /tmp/midicomp/build && \
     cmake .. && \
     make && \
-    mv /tmp/midicomp/build/midicomp /usr/bin/. 
+    mv /tmp/midicomp/build/midicomp /usr/bin/. \
+    echo "soundfont /usr/share/soundfonts/FluidR3_GM.sf2" >> /etc/timidity++/timidity.cfg 
 
 # Add /opt/bin to PATH.
 ENV PATH /opt/bin:$PATH
