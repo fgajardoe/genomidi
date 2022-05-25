@@ -4,3 +4,4 @@ Title: A package for listening genomic annotations
 Version: 0.1
 Depends:
     GenomicRanges
+RoxygenNote: 7.2.0
