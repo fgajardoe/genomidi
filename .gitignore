@@ -2,3 +2,5 @@ data/*
 .RData
 .asc
 .mid
+trash
+trash/*
